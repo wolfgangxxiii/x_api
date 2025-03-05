@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X API Comment Watch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Monitorowanie Komentarzy z X.com</h1>
+    
+    <label for="username">Podaj nazwę użytkownika:</label>
+    <input type="text" id="username" placeholder="elonmusk">
+    <button onclick="fetchComments()">Pobierz Komentarze</button>
+
+    <h2>Komentarze:</h2>
+    <ul id="comments-list"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>
