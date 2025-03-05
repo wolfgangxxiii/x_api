@@ -111,6 +111,3 @@ Backend: FastAPI, Tweepy, SQLite (hostowany na Railway/Render)
 
 Baza danych: SQLite (przechowuje blokowanych użytkowników)
 
-✨ Autor
-
-🚀 Projekt stworzony przez Twoje Imię.Masz pytania? Otwórz issue na GitHubie!
